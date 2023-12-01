@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Нарушениям.НЕТ:Авториpация</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="icon" href="./images/Нарушениям.НЕТ.svg"/>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="" href="#">
+                    <img class="navbar-img" src="./images/Нарушениям.НЕТ.svg" alt="Нарушениям.НЕТ">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Аликсей</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Выйти</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row justify-content-between p-2">
+                <div class="col-md-6">
+                    <div class="card p-4 mt-4">
+                        <div class="card-body">
+                            <h4 class="text-center">Формирования заявления</h4>
+                            <p>Государственный регистрационный номер автомобиля</p>
+                            <div class="d-flex align-items-center justify-content-end">
+                                <div class="mr-10">
+                                    <input type="tel" class="border border-2 rounded-pill text-center nomer-nivolations">
+                                </div>
+                                <p>описание нарушения</p>
+                            </div>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="15"></textarea>
+                        </div>
+                        <div class="text-center p-2">
+                            <button type="submit" class="btns">Отправить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card p-4 mt-4">
+                        <div class="grid">
+                            <h4 class="text-center">Список заявлений</h4>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="fs-5">Заявление<span class="color-danger">#4234234</span></p>
+                                <p class="btn-status text-center bg-primary">новое</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="fs-5">Заявление<span class="color-danger">#4234234</span></p>
+                                <p class="btn-status text-center bg-success">Подтверждено</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="fs-5">Заявление<span class="color-danger">#4234234</span></p>
+                                <p class="btn-status text-center bg-danger">отклонено</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <script src="./lib/jquery.js"></script>
+        <script src="./lib/bootstrap.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        <script src="./js/main.js"></script>
+    </body>
+
+</html>

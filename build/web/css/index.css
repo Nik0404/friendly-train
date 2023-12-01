@@ -1,0 +1,53 @@
+body {
+    background-color: #ECECEC;
+}
+
+a {
+    cursor: pointer;
+}
+
+.btns {
+    cursor: pointer;
+    background-color: #BE1522;
+    padding: 1px 30px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btns:hover {
+    background-color: #BE1522;
+    color: #ffffff;
+}
+
+.navbar-img {
+    width: 136px;
+}
+
+.nomer-nivolations {
+    width: 100px;
+    outline: none;
+}
+
+.color-danger {
+    color: #BE1522;
+}
+
+.btn-status {
+    width: 120px;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 0 2px 0 2px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.pr-10{
+    padding-right: 10px;
+}
+
+.fs-404{
+    font-size: 100px;
+}

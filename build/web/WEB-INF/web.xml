@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <filter>
+        <filter-name>chekedUserFilter</filter-name>
+        <filter-class>com.volationsNo.UserFilter.СhekedUserDoFilter</filter-class>
+        <servlet-class>com.volationsNo.doFilter.chekedUserFilter</servlet-class>
+    </filter>
+    <!--    <filter-mapping>
+        <filter-name>ChekedErrorFilter</filter-name>
+        <url-pattern>/</url-pattern>
+    </filter-mapping>-->
+    <filter-mapping>
+        <filter-name>chekedUserFilter</filter-name>
+        <url-pattern>/index.html</url-pattern>
+    </filter-mapping>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error/404.html</location>
+    </error-page>
+</web-app>
